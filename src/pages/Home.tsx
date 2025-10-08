@@ -19,20 +19,20 @@ const Home: React.FC = () => {
                 ref={section1Ref}
             >
                 <h1>Welcome to the Home Page</h1>
-                <p>This is your React + TypeScript home page.</p>
-                <Link to="/about">Zur About-Seite</Link>
+                <Link to="/about">About</Link>
+                <ul className="social small">
+                    <li><a href="#"><i className="fab fa-twitter icon"></i></a></li>
+                    <li><a href="#"><i className="fab fa-linkedin-in icon"></i></a></li>
+                </ul>
             </section>
-
             <section className="fade-in-section" ref={section2Ref}>
                 <h2>Section 2</h2>
                 <p>This content will fade in as you scroll down.</p>
             </section>
-
             <section className="fade-in-section" ref={section3Ref}>
                 <h2>Section 3</h2>
                 <p>More content to demonstrate the scrolling and fade-in effect.</p>
             </section>
-
             <section className="fade-in-section" ref={section4Ref}>
                 <h2>Section 4</h2>
                 <p>This is the final section on this page.</p>

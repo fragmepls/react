@@ -19,8 +19,11 @@ const About: React.FC = () => {
                 ref={section1Ref}
             >
                 <h1>Welcome to the About Page</h1>
-                <p>This is your React + TypeScript about page.</p>
-                <Link to="/">Zur Home-Seite</Link>
+                <Link to="/">Home</Link>
+                <ul className="social small">
+                    <li><a href="#"><i className="fab fa-twitter icon"></i></a></li>
+                    <li><a href="#"><i className="fab fa-linkedin-in icon"></i></a></li>
+                </ul>
             </section>
         </div>
     );
