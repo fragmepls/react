@@ -1,5 +1,6 @@
 import React, {useRef} from "react";
 import {Link} from "react-router-dom";
+import "../styles/Pages.css";
 import "../styles/Home.css";
 import {useIntersectionObserver} from "../hooks/useIntersectionObserver";
 
@@ -13,7 +14,7 @@ const Home: React.FC = () => {
     useIntersectionObserver([section1Ref, section2Ref, section3Ref, section4Ref], {threshold: 0.5});
 
     return (
-        <div ref={containerRef} className="home-container">
+        <div ref={containerRef} className="home-container content-container">
             <section
                 className="fade-in-section first-section"
                 ref={section1Ref}
