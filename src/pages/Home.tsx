@@ -20,8 +20,6 @@ const Home: React.FC = () => {
             >
                 <h1>Welcome to the Home Page</h1>
                 <ul className="social small">
-                    <li><a target="_blank" href="https://www.linkedin.com/in/leonard-oberrauch-950553287/"><i
-                        className="fab fa-linkedin-in icon"></i></a></li>
                     <li><a target="_blank" href="https://github.com/fragmepls"><i
                         className="fab fa-github icon"></i></a></li>
                 </ul>
