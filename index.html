@@ -12,6 +12,16 @@
 </head>
 <body>
 <div id="root"></div>
+<script>
+    (function () {
+        const redirect = sessionStorage.getItem('redirect');
+        if (redirect) {
+            sessionStorage.removeItem('redirect');
+            const cleanRedirect = redirect.startsWith('/') ? redirect : '/' + redirect;
+            history.replaceState(null, null, cleanRedirect);
+        }
+    })();
+</script>
 <script type="module" src="src/main.tsx"></script>
 </body>
 </html>
