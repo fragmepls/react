@@ -1,5 +1,4 @@
 import React, {useRef} from "react";
-import {Link} from "react-router-dom";
 import "../styles/Pages.css";
 import "../styles/About.css";
 import {useIntersectionObserver} from "../hooks/useIntersectionObserver.ts";
@@ -20,10 +19,10 @@ const About: React.FC = () => {
                 ref={section1Ref}
             >
                 <h1>Welcome to the About Page</h1>
-                <Link to="/">Home</Link>
                 <ul className="social small">
-                    <li><a href="#"><i className="fab fa-twitter icon"></i></a></li>
-                    <li><a href="#"><i className="fab fa-linkedin-in icon"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/leonard-oberrauch-950553287/"><i className="fab fa-linkedin-in icon"></i></a></li>
+                    <li><a target="_blank" href="https://github.com/fragmepls"><i
+                        className="fab fa-github icon"></i></a></li>
                 </ul>
             </section>
         </div>

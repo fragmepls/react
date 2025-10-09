@@ -1,5 +1,5 @@
 import React, {useEffect, useRef} from 'react';
-import './ParticleBackground.css';
+import '../styles/ParticleBackground.css';
 
 const PARTICLE_COUNT = 500;
 const REPULSION_RADIUS = 100;
