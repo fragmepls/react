@@ -26,18 +26,6 @@ const Home: React.FC = () => {
                         className="fab fa-github icon"></i></a></li>
                 </ul>
             </section>
-            <section className="fade-in-section" ref={section2Ref}>
-                <h2>Section 2</h2>
-                <p>This content will fade in as you scroll down.</p>
-            </section>
-            <section className="fade-in-section" ref={section3Ref}>
-                <h2>Section 3</h2>
-                <p>More content to demonstrate the scrolling and fade-in effect.</p>
-            </section>
-            <section className="fade-in-section" ref={section4Ref}>
-                <h2>Section 4</h2>
-                <p>This is the final section on this page.</p>
-            </section>
         </div>
     );
 };

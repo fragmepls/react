@@ -20,10 +20,19 @@ const About: React.FC = () => {
             >
                 <h1>Welcome to the About Page</h1>
                 <ul className="social small">
-                    <li><a target="_blank" href="https://www.linkedin.com/in/leonard-oberrauch-950553287/"><i className="fab fa-linkedin-in icon"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/leonard-oberrauch-950553287/"><i
+                        className="fab fa-linkedin-in icon"></i></a></li>
                     <li><a target="_blank" href="https://github.com/fragmepls"><i
                         className="fab fa-github icon"></i></a></li>
                 </ul>
+            </section>
+            <section className="fade-in-section" ref={section2Ref}>
+                <h2>Section 2</h2>
+                <p>Test content</p>
+            </section>
+            <section className="fade-in-section" ref={section3Ref}>
+                <h2>Section 3</h2>
+                <p>Test content</p>
             </section>
         </div>
     );
